@@ -1,0 +1,83 @@
+body{
+    background: rgba( 255, 117, 229, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+#logo{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    left: 22%;
+    top: 1%;
+   }
+#logo2{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    left: 74%;
+    top: 1%;
+   }
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    color: #4370ac;
+    text-align: center;
+    background: rgba( 9, 164, 236, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18.5px );
+    -webkit-backdrop-filter: blur( 18.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lista_pasteles{
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    background: rgba( 237, 121, 214, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.lista_rellenos{
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    background: rgba( 237, 121, 214, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.lista_cubiertas{
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    background: rgba( 237, 121, 214, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+table{
+    border-collapse: separate;
+    border-spacing: 25px 10px;
+    color: #5A3617;
+
+      }
